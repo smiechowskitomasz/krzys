@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <nav class="nav">
+      <nav class="nav" id="animation">
         <div class="nav__logo">
           <img src="icons/logoIcon.svg" alt="page logo" />
         </div>
@@ -31,8 +31,8 @@
         <a href="#footer" class="header__contactLink"><button class="header__contactButton">kontakt z nami</button></a> 
       </header>
       <section class="solarEnergy" id="solarEnergy">
-        <img  src="img/solarPanels.png" alt="Zdjęcie paneli słonecznych" class="solarEnergy__img mobile">
-        <div class="solarEnergy__flexboxContainer">
+        <img id="animation"  src="img/solarPanels.png" alt="Zdjęcie paneli słonecznych" class="solarEnergy__img mobile">
+        <div id="animation" class="solarEnergy__flexboxContainer">
         <h2 class="solarEnergy__header">Zamień energię słoneczną w prąd już dziś!</h2>
         <p class="solarEnergy__paragraph">Instalowane przez naszą firmę panele solarne zapewniają wysoką wydajność i efektywność. Biorąc pod uwagę, że w ostatnich latach koszty fotowoltaiki znacząco spadły, a ceny prądu znacznie wzrosły, możesz spodziewać się zwrotu z tej inwestycji już po 5 latach! Opłaca się postawić na czystą i ekologiczną energię.</p>
       </div>
@@ -40,13 +40,13 @@
       <main>
         
           <section id="whyUs" class="whyUs animation">
-            <h2 class="whyUs__head">Dlaczego my</h2>
-            <p class="whyUs__paragraph">
+            <h2 id="animation" class="whyUs__head">Dlaczego my</h2>
+            <p id="animation" class="whyUs__paragraph">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
               cursus quis nisi id placerat. Mauris in tempus sem. Pellentesque
               quis est vitae justo scelerisque porta a in augue.
             </p>
-            <div class="whyUs__container">
+            <div id="animation" class="whyUs__container">
               <img class="whyUs__icon" src="icons/supportIcon.svg" />
               <h3 class="whyUs__header">Kompleksowa obsługa</h3>
               <span class="whyUs__introduction"
@@ -56,7 +56,7 @@
                 całą resztą zajmiemy się my !</span
               >
             </div>
-            <div class="whyUs__container whyUs--addBorder">
+            <div id="animation" class="whyUs__container whyUs--addBorder">
               <img class="whyUs__icon" src="icons/warrantyIcon.svg" />
               <h3 class="whyUs__header">25 lat gwarancji</h3>
               <span class="whyUs__introduction"
@@ -67,7 +67,7 @@
                 redukcję kosztów.</span
               >
             </div>
-            <div class="whyUs__container whyUs__container--addPadding">
+            <div id="animation" class="whyUs__container whyUs__container--addPadding">
               <img class="whyUs__icon" src="icons/teamIcon.svg" />
               <h3 class="whyUs__header">Doświadczony zespół</h3>
               <span class="whyUs__introduction whyUs__introduction--addPadding"
@@ -79,15 +79,16 @@
               >
             </div>
           </section>
-         <section id="whyWorth" class="whyWorth animation">
-          <h2 class="whyWorth__head">Dlaczego warto</h2>
-          <p class="whyWorth__paragraph">
+         <section 
+         class="whyWorth">
+          <h2 id="animation" class="whyWorth__head">Dlaczego warto</h2>
+          <p id="animation" class="whyWorth__paragraph">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas
             cursus quis nisi id placerat. Mauris in tempus sem. Pellentesque
             quis est vitae justo scelerisque porta a in augue.
           </p>
           <div class="whyWorth__whyWorthFlexContainer">
-          <div class="whyWorth__container">
+          <div id="animation" class="whyWorth__container">
             <img class="whyWorth__icon" src="icons/orangeCircle.svg" />
             <h3 class="whyWorth__header">
               Będziesz mieć darmowy prąd przez cały rok
@@ -98,7 +99,7 @@
               nasłonecznieniu.</span
             >
           </div>
-          <div class="whyWorth__container">
+          <div id="animation" class="whyWorth__container">
             <img class="whyWorth__icon" src="icons/orangeCircle.svg" />
             <h3 class="whyWorth__header">
               Inwestycja zwróci się bardzo szybko
@@ -109,7 +110,7 @@
               5-7 lat.</span
             >
           </div>
-          <div class="whyWorth__container whyWorth__container--addMargin">
+          <div id="animation" class="whyWorth__container whyWorth__container--addMargin">
               <img class="whyWorth__icon" src="icons/orangeCircle.svg" />
             <h3 class="whyWorth__header">
               Instalacje mają długą żywotność i wieloletnią gwarancję
@@ -126,7 +127,7 @@
           <h2 class="funding__header">Dofinansowanie do 40%</h2>
           <p class="funding__paragraph">Na bieżąco prowadzimy zapisy na dofinansowanie w Wojewódzkich Funduszach Ochrony Środowiska oraz Banku Ochrony Środowiska. Jeśli jesteś zainteresowany uzyskaniem dofinansowania na fotowoltaikę, skontaktuj się z nami – przedstawimy aktualne możliwości w Twoim regionie, wykonamy darmowy audyt oraz przygotujemy projekt instalacji i wniosek o dofinansowanie, który złożymy w nadchodzącym naborze. Zasady dofinansowania paneli słonecznych:</p>
         </section>
-        <aside class="solarPicture">
+        <aside id="animation" class="solarPicture">
           <img class="solarPicture__img" src="img/solarPanlesOnRoof.png" alt="Tak wygląda dach po zamontowaniu paneli słonecznych">
         </aside>
       </main>

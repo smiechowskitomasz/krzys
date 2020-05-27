@@ -14,16 +14,24 @@ $(document).ready(function() {
   });
 });
 
-// window.sr = ScrollReveal();
+window.sr = ScrollReveal();
 
-// sr.reveal("#animation", {
-//   duration: 2000
-// });
+sr.reveal("#animation", {
+  duration: 2000
+});
 
-// sr.reveal("#prizeList", {
-//   duration: 2000
-// });
+sr.reveal("#solarEnergy", {
+  duration: 2000
+});
 
-// sr.reveal("#contact", {
-//   duration: 2000
-// });
+sr.reveal("#whyUs", {
+  duration: 2000
+});
+
+sr.reveal("#funding", {
+  duration: 2000
+});
+
+sr.reveal("#footer", {
+  duration: 2000
+});
