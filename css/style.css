@@ -133,8 +133,19 @@ body {
   }
 }
 
+.nav__item:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
 .nav__link--resetStyle {
   color: black;
+}
+
+.nav__link--resetStyle:hover {
+  color: #fff;
 }
 
 @media (min-width: 799px) {
@@ -796,6 +807,10 @@ body {
 .footer__link {
   text-decoration: underline;
   color: #5B5B5B;
+}
+
+.footer__link:hover {
+  color: black;
 }
 
 @media (max-width: 1024px) {
