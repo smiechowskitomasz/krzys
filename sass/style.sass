@@ -470,16 +470,21 @@ body
   display: flex
   justify-content: center
   transform: translateY(-400px)
+  @media (max-width: 1023px )
+    display: block
   @media (max-width: 618px )
     transform: translateY(-200px)
 
   &__img
+    margin: 0 auto
     max-width: 1118px
     width: 100%
+    height: auto
     border-bottom: 1px solid rgba(5b, 5b, 5b, 0.2)
     padding-bottom: 91px
     @media (max-width: 1023px )
       max-width: 1118px
+      width: 100%
 
 .footer
   display: flex

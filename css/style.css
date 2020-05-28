@@ -831,6 +831,12 @@ body {
           transform: translateY(-400px);
 }
 
+@media (max-width: 1023px) {
+  .solarPicture {
+    display: block;
+  }
+}
+
 @media (max-width: 618px) {
   .solarPicture {
     -webkit-transform: translateY(-200px);
@@ -839,8 +845,10 @@ body {
 }
 
 .solarPicture__img {
+  margin: 0 auto;
   max-width: 1118px;
   width: 100%;
+  height: auto;
   border-bottom: 1px solid rgba(5, 5, 5, 0.2);
   padding-bottom: 91px;
 }
@@ -848,6 +856,7 @@ body {
 @media (max-width: 1023px) {
   .solarPicture__img {
     max-width: 1118px;
+    width: 100%;
   }
 }
 
