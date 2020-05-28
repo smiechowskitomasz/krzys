@@ -55,6 +55,13 @@ body
     @media ( max-width:  1024px)
       display: flex
       justify-content: center
+  &__img
+    @media ( max-width:  1024px)
+      transform: scale(2)
+    @media ( max-width:  600px)
+      transform: scale(1.5)
+    @media ( max-width:  360px)
+      transform: scale(1)
 
   &__list
     font-family: Muli
@@ -117,6 +124,7 @@ body
     @media ( max-width: 1023px )
       font-size: 56px
       line-height: 56px
+      max-width: none
 
   &__paragraph
     margin: 0 auto 40px auto
@@ -176,8 +184,11 @@ body
       height: 100%
     @media ( max-width: 1023px  )
       margin: 0 auto
+      max-width: 95%
       width: auto
       height: auto
+    // @media ( max-width: 490px  )
+
   &__flexboxContainer
     display: flex
     flex-direction: column
@@ -301,11 +312,11 @@ body
     @media( max-width: 1023px )
       font-size: 16px
       line-height: 24px
-    &--addPadding
-      @media( max-width: 1023px )
+    // &--addPadding
+    //   @media( max-width: 1023px )
 
-        margin-bottom: 120px
-        padding-bottom: 120px
+    //     margin-bottom: 120px
+    //     padding-bottom: 120px
 
   &--addBorder
 
@@ -416,6 +427,8 @@ body
   display: flex
   flex-direction: column
   align-items: center
+  @media (max-width: 618px )
+    padding: 160px 0 316px 0
   &__header
     font-family: Muli
     font-style: normal
@@ -427,6 +440,18 @@ body
     color: #2B362A
     max-width: 738px
     margin-bottom: 40px
+    @media (max-width: 1023px )
+      font-size: 56px
+      line-height: 56px
+      max-width: none
+      padding: 0 20px
+    @media (max-width: 460px )
+      font-size: 46px
+      line-height: 46px
+    @media (max-width: 360px )
+      font-size: 36px
+      line-height: 36px
+
   &__paragraph
     font-family: Muli
     font-style: normal
@@ -436,15 +461,26 @@ body
     text-align: center
     color: #5B5B5B
     max-width: 731px
+    @media (max-width: 1023px )
+      font-size: 20px
+      line-height: 28px
+      max-width: none
+      padding: 0 30px
 .solarPicture
   display: flex
   justify-content: center
   transform: translateY(-400px)
+  @media (max-width: 618px )
+    transform: translateY(-200px)
+
   &__img
     max-width: 1118px
     width: 100%
     border-bottom: 1px solid rgba(5b, 5b, 5b, 0.2)
     padding-bottom: 91px
+    @media (max-width: 1023px )
+      max-width: 1118px
+
 .footer
   display: flex
   width: 100%
@@ -454,6 +490,8 @@ body
   @media (max-width: 1023px )
     flex-direction: column
     padding: 0 40px
+  @media (max-width: 618px )
+    margin: -120px auto 200px auto
   &__item
     max-width: 252px
     @media (max-width: 1023px )

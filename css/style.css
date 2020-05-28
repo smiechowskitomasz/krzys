@@ -120,6 +120,27 @@ body {
   }
 }
 
+@media (max-width: 1024px) {
+  .nav__img {
+    -webkit-transform: scale(2);
+            transform: scale(2);
+  }
+}
+
+@media (max-width: 600px) {
+  .nav__img {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+  }
+}
+
+@media (max-width: 360px) {
+  .nav__img {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
 .nav__list {
   font-family: Muli;
   font-style: normal;
@@ -226,6 +247,7 @@ body {
   .header__mainHeader {
     font-size: 56px;
     line-height: 56px;
+    max-width: none;
   }
 }
 
@@ -321,6 +343,7 @@ body {
 @media (max-width: 1023px) {
   .solarEnergy__img {
     margin: 0 auto;
+    max-width: 95%;
     width: auto;
     height: auto;
   }
@@ -531,13 +554,6 @@ body {
   }
 }
 
-@media (max-width: 1023px) {
-  .whyUs__introduction--addPadding {
-    margin-bottom: 120px;
-    padding-bottom: 120px;
-  }
-}
-
 .whyUs--addBorder {
   border-left: 1px solid rgba(5, 5, 5, 0.2);
   border-right: 1px solid rgba(5, 5, 5, 0.2);
@@ -742,6 +758,12 @@ body {
           align-items: center;
 }
 
+@media (max-width: 618px) {
+  .funding {
+    padding: 160px 0 316px 0;
+  }
+}
+
 .funding__header {
   font-family: Muli;
   font-style: normal;
@@ -755,6 +777,29 @@ body {
   margin-bottom: 40px;
 }
 
+@media (max-width: 1023px) {
+  .funding__header {
+    font-size: 56px;
+    line-height: 56px;
+    max-width: none;
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 460px) {
+  .funding__header {
+    font-size: 46px;
+    line-height: 46px;
+  }
+}
+
+@media (max-width: 360px) {
+  .funding__header {
+    font-size: 36px;
+    line-height: 36px;
+  }
+}
+
 .funding__paragraph {
   font-family: Muli;
   font-style: normal;
@@ -764,6 +809,15 @@ body {
   text-align: center;
   color: #5B5B5B;
   max-width: 731px;
+}
+
+@media (max-width: 1023px) {
+  .funding__paragraph {
+    font-size: 20px;
+    line-height: 28px;
+    max-width: none;
+    padding: 0 30px;
+  }
 }
 
 .solarPicture {
@@ -777,11 +831,24 @@ body {
           transform: translateY(-400px);
 }
 
+@media (max-width: 618px) {
+  .solarPicture {
+    -webkit-transform: translateY(-200px);
+            transform: translateY(-200px);
+  }
+}
+
 .solarPicture__img {
   max-width: 1118px;
   width: 100%;
   border-bottom: 1px solid rgba(5, 5, 5, 0.2);
   padding-bottom: 91px;
+}
+
+@media (max-width: 1023px) {
+  .solarPicture__img {
+    max-width: 1118px;
+  }
 }
 
 .footer {
@@ -802,6 +869,12 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
     padding: 0 40px;
+  }
+}
+
+@media (max-width: 618px) {
+  .footer {
+    margin: -120px auto 200px auto;
   }
 }
 
